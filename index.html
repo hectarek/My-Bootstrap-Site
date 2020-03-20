@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The below meta tag <meta charset= "UTF-8"> enables the HTML document to support all the languages that exist on Earth. Without this tag, a browser may not be able to correctly display any characters that don't belong to the basic Latin alphabet. -->
+    <meta charset="utf-8">
+    <!--The below meta tag tells intertnet explorer to use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- This below meta tag sets the page width to the size of the device and sets the zoom width to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- My custom css stylesheet link is below -->
+    <link rel="stylesheet" href="style.css">
+    <!-- This will be the name of our page as it shows up in our tab -->
+    <title>Hector's Bootstrap Site</title>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CDN for Glyphicons. A CDN is a service that accelerates internet content delivery -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    
+  <!--  Nav bar for page -->
+
+      <div class="d-flex flex-row justify-content-center align-items-stretch windowStretch">
+
+        <!-- column 1-->
+        <!-- <div class="d-sm-flex flex-column backgroundBlue">  -->
+        <div class="col-sm-2 backgroundBlue"> 
+
+          <nav class="navbar navbar-expand-lg navbar-dark flex-column">
+
+            <a class="navbar-brand" href="#">Hector's Site</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hobbies</a>
+                </li>
+              </ul>
+
+            </div>
+            
+          </nav>
+
+        </div> 
+        <!-- end of column 1 div-->
+        
+
+        <!-- column 2 -->
+
+        <!-- <div class="d-xl-flex flex-column backgroundWhite align-items-center">  -->
+        <div class="col-lg-8 backgroundWhite text-center"> 
+            <!-- ====== Main Content ====== -->
+
+          <h1> Welcome to Hector's Page</h1>
+
+          <img class="img-thumbnail" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/72583433_10221210503158912_2651215674675822592_n.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=e5tjYMkDHXUAX-zCHsL&_nc_ht=scontent-atl3-1.xx&oh=3be2755a1ddcd2cc532a58bd4d8c1647&oe=5E9AB479" alt="Hector Gonzalez" width="400">
+
+          <p>On this site, you will get to know a bit more about me.</p>
+
+
+        </div> 
+
+        <!-- end of column 2 div-->
+
+
+        <!-- column 3 -->
+        
+        <!-- <div class="d-sm-flex backgroundGrey">  -->
+        <div class="col-sm-2 backgroundGrey"> 
+
+          <form>
+            <h3>Leave Me a Nice Note!</h3>
+            <div class="form-row">
+
+              <div class="form-group col-md-12">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname">
+              </div>
+
+              <div class="form-group col-md-12">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" id="lname">
+              </div>
+
+              <div class="form-group col-md-12">
+                <label for="response">Your Note</label>
+                <textarea class="form-control" id="response" rows="3"></textarea> 
+              </div>
+
+              <div class="form-group col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+
+            </div>
+
+            
+          </form>
+
+
+
+        </div> <!-- end of column 3 div-->
+
+       </div>  <!-- end of row div -->
+
+
+</body>
+</html>

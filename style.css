@@ -1,0 +1,31 @@
+html {
+    background: #EEEEEE;
+}
+
+.windowStretch {
+    height: 100vh;
+}
+
+.containter {
+    height: 100vh;
+}
+
+.whiteText {
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #353a40
+}
+
+.backgroundWhite {
+    background: #EEEEEE;
+}
+
+.backgroundGrey {
+    background: #C3CFDB;
+}
+
+.backgroundBlue {
+    background: #4B88C1;
+}
