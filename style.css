@@ -1,17 +1,22 @@
 html {
     background: #EEEEEE;
+    height: 100vh;
 }
 
 .windowStretch {
     height: 100vh;
 }
 
-.containter {
-    height: 100vh;
-}
-
 .whiteText {
     color: white;
+}
+
+.whiteIcon {
+    filter: brightness(0) invert(1);
+}
+
+.blackText {
+    color: #353a40;
 }
 
 h1, h2, h3 {
@@ -30,3 +35,24 @@ h1, h2, h3 {
 .backgroundBlue {
     background: #4B88C1;
 }
+
+.scrollable {
+    overflow: scroll;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.headerSpace {
+    height: 20px;
+}
+
