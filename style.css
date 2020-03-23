@@ -56,3 +56,10 @@ h1, h2, h3 {
     height: 20px;
 }
 
+.moreSpace {
+    height: 40px;
+}
+
+.textLeft {
+    text-align: left;
+}
